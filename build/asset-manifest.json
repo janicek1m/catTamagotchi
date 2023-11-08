@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/catTamagotchi/static/css/main.1908c89e.css",
+    "main.js": "/catTamagotchi/static/js/main.e70755d3.js",
+    "static/media/NotoSansMono_Condensed-Regular.ttf": "/catTamagotchi/static/media/NotoSansMono_Condensed-Regular.d5f9e23be5bb451d177c.ttf",
+    "static/media/dead.svg": "/catTamagotchi/static/media/dead.0056c6d2876ef8f79ac90d3d7d67b62b.svg",
+    "static/media/hungryAndDirty.svg": "/catTamagotchi/static/media/hungryAndDirty.4ddd66287972f22891f028bc8533eba1.svg",
+    "static/media/hungryLonelyAndDirty.svg": "/catTamagotchi/static/media/hungryLonelyAndDirty.277512eaf94efee2852bf5fa8b7ed658.svg",
+    "static/media/fed.svg": "/catTamagotchi/static/media/fed.b3d3c022d6d58b4ac5a2275f3210fd36.svg",
+    "static/media/cleaned.svg": "/catTamagotchi/static/media/cleaned.b152b1e2a78603e3151dbec94cf6af8c.svg",
+    "static/media/petted.svg": "/catTamagotchi/static/media/petted.db0d07254843d0a8a1c54be6b659a97f.svg",
+    "static/media/sleepiness.svg": "/catTamagotchi/static/media/sleepiness.0b7829a11f5882812204e3e3ec75068d.svg",
+    "static/media/hungry.svg": "/catTamagotchi/static/media/hungry.2ecd71101701be414679e3d1cfd3c135.svg",
+    "static/media/age.svg": "/catTamagotchi/static/media/age.7402a92ea72a31dae19c358d0334e92d.svg",
+    "static/media/sick.svg": "/catTamagotchi/static/media/sick.6c53f9e6a654eb43a31af87b5820f622.svg",
+    "static/media/dirty.svg": "/catTamagotchi/static/media/dirty.61b2eb48a0ba7da01ae6216eba465f2b.svg",
+    "static/media/tired.svg": "/catTamagotchi/static/media/tired.1b4e7eacddfa60e0afd05b3a029bb7cc.svg",
+    "static/media/sleeping.svg": "/catTamagotchi/static/media/sleeping.b491b4e30e33111b927168af69421055.svg",
+    "static/media/happy.svg": "/catTamagotchi/static/media/happy.df170027e6d96f48634c3eaa3dc5f3e3.svg",
+    "static/media/lonelyAndDirty.svg": "/catTamagotchi/static/media/lonelyAndDirty.4a9d013c698b70146eeb38aaed5eec52.svg",
+    "static/media/lonely.svg": "/catTamagotchi/static/media/lonely.c482a4a4f0bf4bee63e31aef1dd65ea2.svg",
+    "static/media/hungryAndLonely.svg": "/catTamagotchi/static/media/hungryAndLonely.b260175ee09327af88cd743822919466.svg",
+    "static/media/food.svg": "/catTamagotchi/static/media/food.333555681910767aff896e6f8048c813.svg",
+    "static/media/hatching.svg": "/catTamagotchi/static/media/hatching.99712225e00f7304d3b489982cfd4f91.svg",
+    "static/media/day.svg": "/catTamagotchi/static/media/day.ade361520de404cf6c9105e46053d5ff.svg",
+    "static/media/dirtiness.svg": "/catTamagotchi/static/media/dirtiness.d98cf196506cf9ee0cf646e5bb40b078.svg",
+    "static/media/clean.svg": "/catTamagotchi/static/media/clean.892763b74b3afe5184f4d45a25aec357.svg",
+    "static/media/egg.svg": "/catTamagotchi/static/media/egg.eecd5e2dcd251422944f57562e0bbe22.svg",
+    "static/media/unborn.svg": "/catTamagotchi/static/media/unborn.b983fcd3629f254683493fafa6437bd7.svg",
+    "static/media/loneliness.svg": "/catTamagotchi/static/media/loneliness.d6b6aa3e00bd28df63710d2eec227cdb.svg",
+    "static/media/pet.svg": "/catTamagotchi/static/media/pet.10397e7181e88070313927f2ac2bba1c.svg",
+    "static/media/reset.svg": "/catTamagotchi/static/media/reset.7b413ca3ed43aedf77f5238c5716f6de.svg",
+    "static/media/night.svg": "/catTamagotchi/static/media/night.8424e473254b20d9f2534adf1519090f.svg",
+    "static/media/hunger.svg": "/catTamagotchi/static/media/hunger.d0743396a9893c49f4f8e3c658a19786.svg",
+    "index.html": "/catTamagotchi/index.html",
+    "main.1908c89e.css.map": "/catTamagotchi/static/css/main.1908c89e.css.map",
+    "main.e70755d3.js.map": "/catTamagotchi/static/js/main.e70755d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1908c89e.css",
+    "static/js/main.e70755d3.js"
+  ]
+}
