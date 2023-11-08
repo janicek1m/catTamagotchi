@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/catTamagotchi/static/css/main.8e8e88a6.css",
-    "main.js": "/catTamagotchi/static/js/main.e70755d3.js",
+    "main.js": "/catTamagotchi/static/js/main.c91db5c6.js",
     "static/media/NotoSansMono_Condensed-Regular.ttf": "/catTamagotchi/static/media/NotoSansMono_Condensed-Regular.d5f9e23be5bb451d177c.ttf",
     "static/media/dead.svg": "/catTamagotchi/static/media/dead.0056c6d2876ef8f79ac90d3d7d67b62b.svg",
     "static/media/hungryAndDirty.svg": "/catTamagotchi/static/media/hungryAndDirty.4ddd66287972f22891f028bc8533eba1.svg",
@@ -25,19 +25,19 @@
     "static/media/day.svg": "/catTamagotchi/static/media/day.ade361520de404cf6c9105e46053d5ff.svg",
     "static/media/dirtiness.svg": "/catTamagotchi/static/media/dirtiness.d98cf196506cf9ee0cf646e5bb40b078.svg",
     "static/media/clean.svg": "/catTamagotchi/static/media/clean.892763b74b3afe5184f4d45a25aec357.svg",
-    "static/media/egg.svg": "/catTamagotchi/static/media/egg.eecd5e2dcd251422944f57562e0bbe22.svg",
     "static/media/unborn.svg": "/catTamagotchi/static/media/unborn.b983fcd3629f254683493fafa6437bd7.svg",
     "static/media/loneliness.svg": "/catTamagotchi/static/media/loneliness.d6b6aa3e00bd28df63710d2eec227cdb.svg",
     "static/media/pet.svg": "/catTamagotchi/static/media/pet.10397e7181e88070313927f2ac2bba1c.svg",
     "static/media/reset.svg": "/catTamagotchi/static/media/reset.7b413ca3ed43aedf77f5238c5716f6de.svg",
+    "static/media/egg.svg": "/catTamagotchi/static/media/egg.50657da97af75914f945669b478afce1.svg",
     "static/media/night.svg": "/catTamagotchi/static/media/night.8424e473254b20d9f2534adf1519090f.svg",
     "static/media/hunger.svg": "/catTamagotchi/static/media/hunger.d0743396a9893c49f4f8e3c658a19786.svg",
     "index.html": "/catTamagotchi/index.html",
     "main.8e8e88a6.css.map": "/catTamagotchi/static/css/main.8e8e88a6.css.map",
-    "main.e70755d3.js.map": "/catTamagotchi/static/js/main.e70755d3.js.map"
+    "main.c91db5c6.js.map": "/catTamagotchi/static/js/main.c91db5c6.js.map"
   },
   "entrypoints": [
     "static/css/main.8e8e88a6.css",
-    "static/js/main.e70755d3.js"
+    "static/js/main.c91db5c6.js"
   ]
 }
