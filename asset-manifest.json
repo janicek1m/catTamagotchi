@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/catTamagotchi/static/css/main.1908c89e.css",
+    "main.css": "/catTamagotchi/static/css/main.8e8e88a6.css",
     "main.js": "/catTamagotchi/static/js/main.e70755d3.js",
     "static/media/NotoSansMono_Condensed-Regular.ttf": "/catTamagotchi/static/media/NotoSansMono_Condensed-Regular.d5f9e23be5bb451d177c.ttf",
     "static/media/dead.svg": "/catTamagotchi/static/media/dead.0056c6d2876ef8f79ac90d3d7d67b62b.svg",
@@ -33,11 +33,11 @@
     "static/media/night.svg": "/catTamagotchi/static/media/night.8424e473254b20d9f2534adf1519090f.svg",
     "static/media/hunger.svg": "/catTamagotchi/static/media/hunger.d0743396a9893c49f4f8e3c658a19786.svg",
     "index.html": "/catTamagotchi/index.html",
-    "main.1908c89e.css.map": "/catTamagotchi/static/css/main.1908c89e.css.map",
+    "main.8e8e88a6.css.map": "/catTamagotchi/static/css/main.8e8e88a6.css.map",
     "main.e70755d3.js.map": "/catTamagotchi/static/js/main.e70755d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.1908c89e.css",
+    "static/css/main.8e8e88a6.css",
     "static/js/main.e70755d3.js"
   ]
 }
