@@ -1,8 +1,8 @@
 {
-  "name": "asciigotchi",
+  "name": "catTamagotchi",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://timschilling.net/asciigotchi",
+  "homepage": "https://janicek1m.github.io/catTamagotchi",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && rm -rf asciigotchi/inkscape && mv build asciigotchi",
+    "build": "react-scripts build && rm -rf catTamagotchi/inkscape && mv build catTamagotchi",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
