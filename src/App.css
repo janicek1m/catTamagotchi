@@ -1,0 +1,335 @@
+@font-face {
+  font-family: LatoMono;
+  src: url("./NotoSansMono_Condensed-Regular.ttf");
+}
+
+/* ==============================================  Colors */
+
+:root {
+  --mainClr: #000000;
+  --softClr: #000000;
+  --borderClr: #000000;
+  --borderClr2: #000000;
+  --gradClr1: hsl(53deg 100% 80%);
+  --gradClr2: hsl(48deg 100% 80%);
+  --gradClr3: hsl(43deg 100% 81%);
+  --gradClr4: hsl(37deg 100% 81%);
+  --gradClr5: hsl(32deg 100% 82%);
+  --gradClr6: hsl(25deg 100% 83%);
+  --gradClr7: hsl(19deg 100% 84%);
+  --gradClr8: hsl(11deg 100% 86%);
+  --gradClr9: hsl(4deg 100% 87%);
+  --gradClr10: hsl(356deg 100% 87%);
+}
+
+body {
+  background-color: hsl(0, 0%, 12%);
+  padding: 3rem;
+}
+
+/* ==============================================  Wrappers */
+
+.App {
+  text-align: center;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: var(--mainClr);
+  background: linear-gradient(
+    0deg,
+    var(--gradClr1) 0%,
+    var(--gradClr2) 11%,
+    var(--gradClr3) 22%,
+    var(--gradClr4) 33%,
+    var(--gradClr5) 44%,
+    var(--gradClr6) 56%,
+    var(--gradClr7) 67%,
+    var(--gradClr8) 78%,
+    var(--gradClr9) 89%,
+    var(--gradClr10) 100%
+  );
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+@media (max-width: 400px) {
+  body {
+    display: block;
+    margin: 0;
+  }
+  .App {
+    border-radius: 0;
+  }
+}
+
+@media (min-width: 420px) {
+  body {
+    display: flex;
+    justify-content: center;
+  }
+  .App {
+    width: 400px;
+  }
+}
+
+/* ==============================================  Buttons */
+
+button {
+  display: flex;
+  padding: 0.25rem;
+  margin-bottom: 0.5rem;
+  border-width: 1px;
+  border-radius: 1.75rem;
+  border-color: #000000;
+  color: #ffffff;
+  background-color: #ffffff;
+}
+button:active {
+  background-color: #000000;
+}
+
+/* ==============================================  Top Bar */
+
+#topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 8rem;
+}
+
+#resetButton svg,
+#darkmodeSwitch svg {
+  max-width: 1.5rem;
+  max-height: 1.5rem;
+}
+
+#uiContainer {
+  padding: 0 0.25rem 0.25rem 0;
+  text-align: left;
+  line-height: 1.1rem;
+  min-width: 8rem;
+}
+
+.uiItem {
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.uiItem svg {
+  max-width: 1.4rem;
+  max-height: 1.4rem;
+  margin: 0.2rem 0.4rem 0.2rem 0;
+}
+
+.needIndicator {
+  background-color: var(--mainClr);
+  border-right: 0.6px solid #000000;
+  border-top: 0.6px solid #000000;
+  border-bottom: 0.6px solid #000000;
+  border-left: 0.6px solid #000000;
+  background-color: #448e60;
+  height: 0.7rem;
+}
+
+p {
+  padding-top: 5px;
+  font-size: 9pt;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+/* ============================================== Pet */
+
+.petContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+}
+
+#pet {
+  margin-top: 10vh;
+  padding-bottom: 5vh;
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  white-space: nowrap;
+}
+
+#petShadow {
+  margin-bottom: 5vh;
+  border-radius: 50%;
+  background-color: var(--softClr);
+}
+
+.hatching {
+  animation: hatch 2s ease-in-out 2 forwards;
+}
+.alive {
+  animation: wobble 3s ease-in-out infinite;
+}
+.sleeping {
+  animation: wobble 6s linear infinite;
+}
+.sick {
+  animation: wobble 5s ease-in-out infinite;
+}
+.dead {
+  animation: none;
+}
+.fed {
+  animation: fed 2s ease-in-out forwards;
+}
+.petted {
+  animation: petted 2s linear forwards;
+}
+.cleaned {
+  animation: cleaned 2s ease-in-out forwards;
+}
+
+/* ============================================== Actions Menu */
+
+.actionsMenu {
+  display: flex;
+  justify-content: center;
+}
+
+.actionsMenu button:not(:last-of-type) {
+  margin-right: 0.75rem;
+}
+
+.actionsMenu svg,
+.actionsMenu svg {
+  max-width: 2rem;
+  max-height: 2rem;
+}
+
+/* ============================================== Animations */
+
+@keyframes fed {
+  15% {
+    transform: scale(1, 0.8);
+  }
+  30% {
+    transform: scale(0.9, 1);
+  }
+  45% {
+    transform: scale(1, 0.8);
+  }
+  60% {
+    transform: scale(0.9, 1);
+  }
+  75% {
+    transform: scale(1, 0.8);
+  }
+  90% {
+    transform: scale(0.9, 1);
+  }
+}
+
+@keyframes petted {
+  0% {
+    transform: translate(0) rotateX(0);
+  }
+  20% {
+    transform: translate(0, -0.2rem) rotateZ(2.5deg);
+  }
+  40% {
+    transform: translate(-0.1rem, -0.4rem) rotateZ(5deg);
+  }
+  60% {
+    transform: translate(0, -0.2rem) rotateZ(-2.5deg);
+  }
+  80% {
+    transform: translate(0.1rem, -0.4rem) rotateZ(-5deg);
+  }
+  100% {
+    transform: translate(0) rotateX(0);
+  }
+}
+
+@keyframes cleaned {
+  0% {
+    transform: rotate(0deg);
+  }
+  30% {
+    transform: scaleY(0.8);
+  }
+  35% {
+    transform: scaleY(0.9);
+  }
+  40% {
+    transform: rotate(5deg);
+  }
+  45% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  55% {
+    transform: rotate(-5deg);
+  }
+  60% {
+    transform: rotate(5deg);
+  }
+  65% {
+    transform: scaleY(1) rotate(-5deg);
+  }
+  70% {
+    transform: scaleY(0.9);
+  }
+  100% {
+    transform: scaleY(1) rotate(0deg);
+  }
+}
+
+@keyframes wobble {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.05, 0.9) translateY(7px);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes hatch {
+  0% {
+    transform: translateX(0);
+  }
+  10% {
+    transform: translateX(-0.25rem);
+  }
+  20% {
+    transform: translateX(0.25rem);
+  }
+  30% {
+    transform: translateX(0);
+  }
+  40% {
+    transform: translateX(0.25rem);
+  }
+  50% {
+    transform: translateX(-0.25rem);
+  }
+  60% {
+    transform: translateX(0.25rem);
+  }
+  70% {
+    transform: translateX(-0.25rem);
+  }
+  80% {
+    transform: translateX(0.25rem);
+  }
+  90% {
+    transform: translateX(-0.25rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
